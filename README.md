@@ -48,3 +48,7 @@
 ##
 ### Data Visualization on the Thingspeak channel:
 ![image](https://github.com/NIRANJAN-K-DESHMUKH/Smart-Weather-Station/assets/82277471/7b8bf118-50da-47b3-82d6-791331f14c4a)
+##
+### Data monitoring through Internet:
+![image](https://github.com/NIRANJAN-K-DESHMUKH/Smart-Weather-Station/assets/82277471/5fc2069c-729c-4a62-8e61-dff04fcbf5e9)
+
