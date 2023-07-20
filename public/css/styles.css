@@ -1,0 +1,39 @@
+html {
+  background-color: #E4E9FD;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  padding: 20px;
+}
+
+.box {
+  width: 70%;
+  margin: 60px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #5B2C6F;
+}
+
+.values {
+  font-family: cursive;
+  color: #A569BD;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marine Weather Forecast and Routing for Ships</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+  <div class="box" id = "heading">
+    <h1>Weather parameters values:</h1>
+  </div>
+
+  <div class="box">
+    <p>Temperature: <span class = "values"><%= tempvar %> deg. Celcius</span></p>
+    <p>Atmospheric Pressure: <span class = "values"><%= atmvar %> pascal</span></p>
+    <p>Humidity: <span class = "values"><%= humvar %> %</span></p>
+    <p>Light Intensity: <span class = "values"><%= lightvar %> lx</span></p>
+  </div>
+
+  <% if ((humvar < 75) && (tempvar > 26)) {
+
+    if (atmvar > 96000) {
+      console.log("\nGood weather conditions ahead\n\n. . . . . . . . . . . . . . . . . \n\n");
+    }
+  } else {
+    console.log("Bad weather conditions ahead, be careful !");
+  }
+  %>
+
+  </body>
+
+  <script>
+
+  setTimeout(function(){
+           location.reload(true);
+       }, 4000);
+
+  </script>
+</html>
